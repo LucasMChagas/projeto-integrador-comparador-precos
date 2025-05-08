@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "nome": "Smartphone Samsung Galaxy A54",
+    "descricao": "Smartphone com tela AMOLED de 6.5 polegadas, 128GB",
+    "preco": 1899.90,
+    "url": "https://exemplo.com/produto/samsung-a54",
+    "imagem": "https://exemplo.com/imagens/samsung-a54.jpg",
+    "loja" : "Amazon"
+  },
+  {
+    "id": 2,
+    "nome": "Notebook Dell Inspiron 15",
+    "descricao": "Notebook com Intel i5, 8GB RAM, SSD 256GB",
+    "preco": 3499.00,
+    "url": "https://exemplo.com/produto/dell-inspiron-15",
+    "imagem": "https://exemplo.com/imagens/dell-inspiron.jpg",
+    "loja" : "Amazon"
+  },
+  {
+    "id": 3,
+    "nome": "Fone de Ouvido Bluetooth JBL",
+    "descricao": "Fone de ouvido com cancelamento de ruído, bateria de longa duração",
+    "preco": 399.99,
+    "url": "https://exemplo.com/produto/jbl-fone",
+    "imagem": "https://exemplo.com/imagens/jbl-fone.jpg",
+    "loja" : "Mercado Livre"
+  },
+  {
+    "id": 4,
+    "nome": "Smartphone Samsung Galaxy A54",
+    "descricao": "Smartphone com tela AMOLED de 6.5 polegadas, 128GB",
+    "preco": 1799.90,
+    "url": "https://exemplo.com/produto/samsung-a54",
+    "imagem": "https://exemplo.com/imagens/samsung-a54.jpg",
+    "loja" : "Mercado Livre"
+  }
+  
+]
