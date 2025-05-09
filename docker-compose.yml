@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  fastapi:
+    build:
+      context: ./src  # Caminho onde está seu Dockerfile e código
+    container_name: fastapi_app
+    ports:
+      - "8000:8000"  # Porta externa:porta interna
+    env_file:
+      - ./src/.env  # Arquivo com sua connection string e outras variáveis
+    volumes:
+      - ./src:/app  # Faz bind mount do código local para dentro do container (útil em dev)
+    restart: unless-stopped
