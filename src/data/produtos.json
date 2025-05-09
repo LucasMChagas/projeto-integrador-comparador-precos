@@ -34,6 +34,86 @@
     "url": "https://exemplo.com/produto/samsung-a54",
     "imagem": "https://exemplo.com/imagens/samsung-a54.jpg",
     "loja" : "Mercado Livre"
+  },
+  {
+    "id": 1,
+    "nome": "Smartphone Samsung Galaxy A14",
+    "descricao": "Tela de 6.6”, 128GB, Câmera Tripla, Android 13",
+    "categoria": "Smartphones",
+    "preco": 1249.90,
+    "loja": "Americanas"
+  },
+  {
+    "id": 2,
+    "nome": "Smartphone Motorola Moto G73",
+    "descricao": "5G, 256GB, Tela 6.5”, 8GB RAM",
+    "categoria": "Smartphones",
+    "preco": 1699.00,
+    "loja": "Magalu"
+  },
+  {
+    "id": 3,
+    "nome": "Notebook Acer Aspire 5",
+    "descricao": "Intel Core i5, 8GB RAM, 512GB SSD, Windows 11",
+    "categoria": "Notebooks",
+    "preco": 3199.00,
+    "loja": "Submarino"
+  },
+  {
+    "id": 4,
+    "nome": "Notebook Lenovo IdeaPad 3i",
+    "descricao": "Intel Core i7, 16GB RAM, 1TB SSD",
+    "categoria": "Notebooks",
+    "preco": 4299.99,
+    "loja": "Amazon"
+  },
+  {
+    "id": 5,
+    "nome": "Smart TV LG 50” 4K",
+    "descricao": "webOS, Inteligência Artificial, Controle Smart Magic",
+    "categoria": "TVs",
+    "preco": 2299.00,
+    "loja": "Casas Bahia"
+  },
+  {
+    "id": 6,
+    "nome": "Smart TV Samsung 55” QLED",
+    "descricao": "4K UHD, Alexa Built-in, Tizen",
+    "categoria": "TVs",
+    "preco": 3299.00,
+    "loja": "Magalu"
+  },
+  {
+    "id": 7,
+    "nome": "Geladeira Brastemp Frost Free Duplex 375L",
+    "descricao": "Inox, Painel Eletrônico, Turbo Ice",
+    "categoria": "Eletrodomésticos",
+    "preco": 3199.00,
+    "loja": "Ponto"
+  },
+  {
+    "id": 8,
+    "nome": "Fogão 4 bocas Electrolux",
+    "descricao": "Mesa de vidro, Acendimento automático",
+    "categoria": "Eletrodomésticos",
+    "preco": 899.00,
+    "loja": "Extra"
+  },
+  {
+    "id": 9,
+    "nome": "Cafeteira Nespresso Essenza Mini",
+    "descricao": "Preto, 20 cápsulas grátis, 220V",
+    "categoria": "Cafeteiras",
+    "preco": 399.00,
+    "loja": "Amazon"
+  },
+  {
+    "id": 10,
+    "nome": "Air Fryer Mondial 4L",
+    "descricao": "Preta, 1500W, Controle de temperatura",
+    "categoria": "Eletroportáteis",
+    "preco": 359.90,
+    "loja": "Americanas"
   }
   
 ]
