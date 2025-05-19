@@ -28,6 +28,12 @@ Este projeto tem como objetivo desenvolver um **comparador de preços** eficient
 - **Banco de dados:** 
 - **API:** FastAPI
 
+# 🎥 Demonstração do Projeto
+
+Confira o vídeo de demonstração do **Projeto Integrador: Comparador de Preços** e veja como ele funciona na prática!
+
+🔗 [Assista ao vídeo aqui](COLOQUE_O_LINK_DO_VIDEO_AQUI)
+
 ## 📖 Como Usar
 
 1. escrever.....
