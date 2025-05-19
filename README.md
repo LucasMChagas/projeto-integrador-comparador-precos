@@ -19,7 +19,8 @@ Os resultados obtidos nesta prova de conceito são fundamentais para aprimorar a
 - Busca de produtos em diferentes lojas
 - Comparação automática de preços
 - Exibição das melhores ofertas disponíveis
-- Interface intuitiva e fácil de usar
+- Alerta para produtos selecionados
+- Opção de favoritar produtos
 
 ## 🛠️ Tecnologias Utilizadas
 
