@@ -6,9 +6,11 @@ Este projeto tem como objetivo desenvolver um **comparador de preços** eficient
 
 ## 📌 Prova de Conceito
 
-A prova de conceito aplicada neste projeto teve como foco a **jornada de conversão do usuário Carlos Mendes**. Por meio da análise do comportamento de compra, investigamos como a plataforma pode impactar sua tomada de decisão, ajudando-o a comparar preços de produtos em supermercados de forma eficiente. 
+A prova de conceito aplicada neste projeto teve como foco a **jornada de conversão do usuário Carlos Mendes**: 
 
-Carlos, como pequeno empresário e consumidor estratégico, busca otimizar suas compras tanto para uso pessoal quanto para abastecimento de seu negócio. A plataforma foi testada para validar se a experiência proporcionada facilita sua busca por melhores ofertas, promovendo economia de tempo e dinheiro e incentivando a recorrência no uso da ferramenta.
+"Decidido a integrar a ferramenta em sua rotina, Carlos cria uma conta na plataforma. Ele configura alertas para promoções em itens que compra regularmente, personalizando sua experiência para atender tanto as necessidades de casa quanto de negócio".
+
+Carlos, tem 40 anos é um pequeno empresário na cidade de Recife-PE e busca otimizar suas compras tanto para uso pessoal quanto para abastecimento de seu negócio. Prefere mercados que oferecem bons preços e facilidade na compra online.
 
 Os resultados obtidos nesta prova de conceito são fundamentais para aprimorar as funcionalidades do sistema e garantir uma experiência fluida e eficaz para os usuários.
 
