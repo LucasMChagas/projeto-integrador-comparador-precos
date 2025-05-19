@@ -2,12 +2,12 @@
 
 ## 💡 Autores
 
-- [Aline Santos Silva]
-- [Isabelle Lopes Barbosa Fontenele de Andrade]
-- [Karen Monique Zordan]
-- [Letícia Simões Rodrigues]
-- [Lucas Miranda das Chagas]
-- [Tairan de Abreu Freitas]
+- Aline Santos Silva
+- Isabelle Lopes Barbosa Fontenele de Andrade
+- Karen Monique Zordan
+- Letícia Simões Rodrigues
+- Lucas Miranda das Chagas
+- Tairan de Abreu Freitas
 
 ## 📌 Descrição
 
@@ -30,6 +30,4 @@ Este projeto tem como objetivo desenvolver um **comparador de preços** eficient
 
 ## 📖 Como Usar
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/projeto-integrador-comparador-precos.git
+1. escrever.....
