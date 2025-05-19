@@ -34,7 +34,7 @@ Confira o vídeo de demonstração e veja como ele funciona na prática!
 
 🔗 [Assista ao vídeo aqui](https://youtu.be/3hyq3V__64E)
 
-## 📖 Como Usar
+## 📖 Como Executar
 
 1. escrever.....
 
