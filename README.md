@@ -18,7 +18,6 @@ Este projeto tem como objetivo desenvolver um **comparador de preços** eficient
 - Busca de produtos em diferentes lojas
 - Comparação automática de preços
 - Exibição das melhores ofertas disponíveis
-- 
 - Interface intuitiva e fácil de usar
 
 ## 🛠️ Tecnologias Utilizadas
