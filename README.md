@@ -1,0 +1,26 @@
+# Projeto Integrador: Comparador de Preços
+
+## 📌 Descrição
+
+Este projeto tem como objetivo desenvolver um **comparador de preços** eficiente, permitindo aos usuários analisar valores de produtos em diferentes lojas e tomar decisões de compra de forma mais assertiva e economica.
+
+## 🚀 Funcionalidades
+
+- Busca de produtos em diferentes lojas
+- Comparação automática de preços
+- Exibição das melhores ofertas disponíveis
+- 
+- Interface intuitiva e fácil de usar
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Linguagem Frontend:** HTML, CSS, Javascript
+- **Linguagem Backend:** 
+- **Banco de dados:** 
+- **API:** FastAPI
+
+## 📖 Como Usar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/projeto-integrador-comparador-precos.git
