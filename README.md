@@ -32,7 +32,7 @@ Os resultados obtidos nesta prova de conceito são fundamentais para aprimorar a
 
 Confira o vídeo de demonstração e veja como ele funciona na prática!
 
-🔗 [Assista ao vídeo aqui](COLOQUE_O_LINK_DO_VIDEO_AQUI)
+🔗 [Assista ao vídeo aqui](https://youtu.be/3hyq3V__64E)
 
 ## 📖 Como Usar
 
