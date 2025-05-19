@@ -24,7 +24,7 @@ Este projeto tem como objetivo desenvolver um **comparador de preços** eficient
 ## 🛠️ Tecnologias Utilizadas
 
 - **Linguagem Frontend:** HTML, CSS, Javascript
-- **Linguagem Backend:** 
+- **Linguagem Backend:** Python, Dockerfile
 - **Banco de dados:** 
 - **API:** FastAPI
 
