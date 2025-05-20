@@ -48,6 +48,19 @@ Confira o vídeo de demonstração e veja como ele funciona na prática!
 3. Selecione **"Open with Live Server"**
 4. O navegador abrirá automaticamente no navegador
 
+## ⚠️ Observações sobre a funcionalidade de busca de produtos
+
+Durante o desenvolvimento da funcionalidade de **busca automática de produtos em sites de terceiros**, o backend enfrentou **dificuldades técnicas com scraping**, devido a:
+- Mudanças frequentes na estrutura dos sites
+- Proteções contra bots e scraping (como CAPTCHAs e requisições bloqueadas)
+- Instabilidade e limitações de tempo de resposta
+
+Para contornar esse desafio, o backend criou um **arquivo JSON com uma base de produtos simulada**, permitindo que a aplicação fosse testada e demonstrada sem depender da coleta em tempo real.
+
+Entretanto, o frontend enfrentou **dificuldades para consumir e manipular esse JSON de forma eficiente**, especialmente para funcionalidades como filtro, busca e favoritos. Como solução alternativa e mais escalável, o frontend optou por **migrar os dados para um banco de dados no Supabase**, o que facilitou a integração, a persistência de dados e a implementação de funcionalidades interativas na aplicação.
+
+> **Resumo:** A busca em sites reais não está ativa nesta versão por limitações técnicas. Em vez disso, utilizamos dados simulados carregados no Supabase para demonstrar a experiência do usuário.
+
 
 ## 💡 Autores
 
