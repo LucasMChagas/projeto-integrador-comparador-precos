@@ -72,8 +72,11 @@ Entretanto, o frontend enfrentou **dificuldades para consumir e manipular esse J
 
 ## Outras informações
 
-**Faculdade:**  Centro Universitário SENAC SANTO AMARO (modalidade EAD)
-**Curso:**  Tecnólogo em Análise e Desenvolvimento de Sistemas
+**Faculdade:**  
+Centro Universitário SENAC SANTO AMARO (modalidade EAD)
+
+**Curso:**  
+Tecnólogo em Análise e Desenvolvimento de Sistemas
 
 **Disciplina:**  
 Projeto Integrador: Desenvolvimento de sistemas orientado a dispositivos móveis e baseados na web
