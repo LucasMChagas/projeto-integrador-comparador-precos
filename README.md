@@ -26,7 +26,7 @@ Os resultados obtidos nesta prova de conceito são fundamentais para aprimorar a
 
 - **Linguagem Frontend:** HTML, CSS, Javascript
 - **Linguagem Backend:** Python, Dockerfile
-- **Banco de dados:** escrever qual foi utilizado
+- **Banco de dados:** PostgreSQL via SUPABASE
 - **API:** FastAPI
 
 ## 🎥 Demonstração do Projeto
