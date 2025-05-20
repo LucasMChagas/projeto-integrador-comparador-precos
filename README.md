@@ -37,12 +37,16 @@ Confira o vídeo de demonstração e veja como ele funciona na prática!
 
 ## 📖 Como Executar
 
-1. escrever.....
+### Pré-requisitos
+- [Visual Studio Code](https://code.visualstudio.com/) instalado
+- Extensão **Live Server** (ou similar) instalada no VS Code
+- Navegador
 
-
-
-
-
+### Passo a passo
+1. **Abra o projeto no VS Code**
+2. Clique com o **botão direito no arquivo `index.html`**
+3. Selecione **"Open with Live Server"**
+4. O navegador abrirá automaticamente no navegador
 
 
 ## 💡 Autores
