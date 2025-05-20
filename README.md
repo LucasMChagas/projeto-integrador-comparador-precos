@@ -61,7 +61,6 @@ Entretanto, o frontend enfrentou **dificuldades para consumir e manipular esse J
 
 > **Resumo:** A busca em sites reais não está ativa nesta versão por limitações técnicas. Em vez disso, utilizamos dados simulados carregados no Supabase para demonstrar a experiência do usuário.
 
-
 ## 💡 Autores
 
 - Aline Santos Silva
@@ -70,3 +69,13 @@ Entretanto, o frontend enfrentou **dificuldades para consumir e manipular esse J
 - Letícia Simões Rodrigues
 - Lucas Miranda das Chagas
 - Tairan de Abreu Freitas
+
+## Outras informações
+
+**Faculdade:**  Centro Universitário SENAC SANTO AMARO (modalidade EAD)
+**Curso:**  Tecnólogo em Análise e Desenvolvimento de Sistemas
+
+**Disciplina:** Projeto Integrador: Desenvolvimento de sistemas orientado a dispositivos móveis e baseados na web
+**Professor Coordenador e Orientador da disciplina:**  Gustavo Calixto
+**Professor Orientador:** Carlos William Ferreira de Lima
+**Tutora:**  Ruth Del Raso Gracia
