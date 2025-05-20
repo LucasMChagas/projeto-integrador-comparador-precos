@@ -75,7 +75,15 @@ Entretanto, o frontend enfrentou **dificuldades para consumir e manipular esse J
 **Faculdade:**  Centro Universitário SENAC SANTO AMARO (modalidade EAD)
 **Curso:**  Tecnólogo em Análise e Desenvolvimento de Sistemas
 
-**Disciplina:** Projeto Integrador: Desenvolvimento de sistemas orientado a dispositivos móveis e baseados na web
-**Professor Coordenador e Orientador da disciplina:**  Gustavo Calixto
-**Professor Orientador:** Carlos William Ferreira de Lima
-**Tutora:**  Ruth Del Raso Gracia
+**Disciplina:**  
+Projeto Integrador: Desenvolvimento de sistemas orientado a dispositivos móveis e baseados na web
+
+**Professor Coordenador e Orientador da disciplina:**  
+Gustavo Calixto
+
+**Professor Orientador:**  
+Carlos William Ferreira de Lima
+
+**Tutora:**  
+Ruth Del Raso Gracia
+
