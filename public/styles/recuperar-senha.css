@@ -1,0 +1,141 @@
+/* Configurações gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Estrutura do conteúdo */
+.container {
+    background: #fff;
+    padding: 25px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+}
+
+/* Campos do formulário */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Mensagens de erro e sucesso */
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: block;
+    min-height: 20px;
+}
+
+.success {
+    color: green;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.03);
+}
+
+/* Link de retorno */
+.link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.link a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px 35px;
+        width: 90%;
+    }
+
+    input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+/* Rodapé fixo */
+.footer {
+    text-align: center;
+    padding: 15px 10px;
+    background-color: #222;
+    color: #eee;
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.5);
+    z-index: 20;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EconomizAí - Comparador de Preços</title>
+    <link rel="stylesheet" href="../styles/comparador_preco.css" />
+
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <!-- Script principal -->
+    <script src="../scripts/comparador_preco.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="../assets/logo.png" alt="EconomizAí" />
+        </div>
+        <h1>EconomizAí</h1>
+        <nav class="header-buttons">
+            <a href="tela_cadastro.html" class="btn-adicionar-oferta">➕ Adicionar Oferta</a>
+            <a href="index.html" class="btn-sair">Sair</a>
+        </nav>
+    </header>
+
+    <div class="search-bar">
+        <select id="searchInput">
+            <option value="" disabled selected>🔍 Selecione um tipo de produto...</option>
+        </select>
+        <button id="searchButton">Buscar</button>
+        <button id="btnCriarAlerta">Criar Alerta</button> <!-- Botão Criar Alerta -->
+    </div>
+
+    <div class="container">
+        <section class="section" id="offersSection">
+            <h2>🛒 Ofertas</h2>
+            <div class="product-list" id="latestProducts"></div>
+        </section>
+
+        <aside class="favorites-section" id="favoritesSection">
+            <h2>⭐ Favoritos</h2>
+            <div class="product-list" id="favoritesList"></div>
+        </aside>
+
+        <section class="alerta-promocao" id="alertasPromocaoSection">
+            <h2>🚨 Alertas de Promoções</h2>
+            <div class="product-comparison-grid" id="alertasPromocaoList">Nenhum alerta criado ainda.</div>
+        </section>
+    </div>
+
+    <!-- Template de Produto -->
+    <template id="productTemplate">
+        <div class="product">
+            <div class="product-image-wrapper">
+                <img src="" alt="Imagem do produto" class="product-image" />
+            </div>
+            <h4 class="tipo_produto">Tipo - Nome</h4>
+            <p class="product-amount"><strong>Quantidade:</strong> 0 unidade</p>
+            <p class="product-price"> R$ 0,00</p>
+            <p class="product-location"></p>
+            <p class="product-verifications" style="color: #28a745; font-weight: bold;"></p>
+            <button class="btn-details">Detalhes</button>
+            <button class="verify-offer">✅ Verifiquei essa promoção</button>
+        </div>
+    </template>
+
+    <!-- Modal de detalhes do produto -->
+    <div id="productModal" class="modal">
+       <div class="modal-content">
+          <span class="close">&times;</span>
+
+          <!-- Conteúdo detalhes -->
+          <div id="modalDetalhesConteudo">
+              <h2 id="modalTitle"></h2>
+              <img id="modalImage" src="" alt="Imagem do Produto" />
+              <p id="modalDescription"></p>
+              <p id="modalPrice"></p>
+              <p id="modalLocation"></p>
+              <div id="modalLink" style="display: none;">
+                <a href="" target="_blank">🔗 Comprar Online</a>
+              </div>
+          </div>
+       </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        Desenvolvido por Grupo 1 - Aline Santos, Isabelle Fontenele. Karen Zordan, Leticia Simões, Lucas Chagas, Tairan De Abru.  SENAC/ADS @2025
+    </footer>
+</body>
+</html>

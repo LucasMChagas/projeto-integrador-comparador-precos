@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+    <link rel="stylesheet" href="../styles/tela_cadastro.css">
+    
+    <!-- Supabase via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
+    <!-- JavaScript do projeto -->
+    <script src="../scripts/tela_cadastro.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Produtos</h1>
+        <nav>
+            <a href="comparador_precos.html" id="btnVoltar">🔙 Voltar para Comparador</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Cadastre um novo produto</h2>
+
+        <!-- Mensagem de erro/sucesso -->
+        <div id="mensagem-status"></div>
+
+        <form id="productForm" enctype="multipart/form-data">
+            <label for="tipo_produto">Tipo de Produto:</label>
+            <select id="tipo_produto">
+                <option value="arroz">Arroz</option>
+                <option value="feijao">Feijão</option>
+                <option value="acucar">Açúcar</option>
+                <option value="macarrao">Macarrão</option>
+                <option value="oleo">Óleo</option>
+            </select>
+
+            <label for="nome">Nome do Produto:</label>
+            <input type="text" id="nome" required>
+
+            <label for="marca">Marca:</label>
+            <input type="text" id="marca" required>
+
+            <label for="valor">Valor:</label>
+            <input type="number" id="valor" step="0.01" required>
+
+            <div class="quantidade-unidade">
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade" required>
+
+                <label for="unidade">Unidade:</label>
+                <select id="unidade">
+                    <option value="kg">kg</option>
+                    <option value="g">Grama</option>
+                    <option value="unidade">Unidade</option>
+                    <option value="l">Litro</option>
+                    <option value="ml">ml</option>
+                </select>
+            </div>
+
+            <label for="descricao">Descrição (Opcional):</label>
+            <textarea id="descricao" placeholder="Insira uma breve descrição do produto..."></textarea>
+
+            <label for="imagem">Imagem do Produto (Opcional):</label>
+            <input type="file" id="imagem" accept="image/*">
+
+            <label for="origem">Origem do Cadastro:</label>
+            <select id="origem">
+                <option value="comunidade">Membro da Comunidade</option>
+                <option value="desenvolvedor">Desenvolvedor</option>
+            </select>
+
+            <label for="localizacao">Localização:</label>
+            <select id="localizacao">
+                <option value="online">Online</option>
+                <option value="presencial">Presencial</option>
+            </select>
+
+            <!-- Campo para link do produto (visível apenas para "Online") -->
+            <div id="campos-online" class="opcao-dinamica" style="display: none;">
+                <label for="link">Link do Produto (Obrigatório para Online):</label>
+                <input type="text" id="link" placeholder="Cole o link do produto aqui...">
+            </div>
+
+            <!-- Campos para endereço físico (visível apenas para "Presencial") -->
+            <div id="campos-presencial" class="opcao-dinamica" style="display: none;">
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" value="Recife, PE" readonly>
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco">
+            </div>
+
+            <button type="submit">Cadastrar Produto</button>
+        </form>
+    </div>
+        <!-- Rodapé -->
+    <footer class="footer">
+        Desenvolvido por Grupo 1 - Aline Santos, Isabelle Fontenele. Karen Zordan, Leticia Simões, Lucas Chagas, Tairan De Abru.  SENAC/ADS @2025
+    </footer>
+</body>
+</html>

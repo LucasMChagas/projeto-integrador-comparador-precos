@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Login - Comparador de Preços</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <!-- Script para o header padrão -->
+    <script src="../scripts/header.js" defer></script>
+    <!-- Script do index, que faz o login -->
+    <script src="../scripts/index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" required />
+                <div class="error" id="emailError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="senha">Senha *</label>
+                <input type="password" id="senha" name="senha" required />
+                <div class="error" id="senhaError"></div>
+            </div>
+
+            <button type="button" id="entrarBtn">Entrar</button>
+
+            <div class="error" id="loginError"></div>
+        </form>
+
+        <div class="link">
+            <p><a href="recuperar-senha.html">Esqueceu a senha?</a></p>
+            <p><a href="cadastro.html">Cadastrar-se</a></p>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        Desenvolvido por Grupo 1 - Aline Santos, Isabelle Fontenele. Karen Zordan, Leticia Simões, Lucas Chagas, Tairan De Abru.  SENAC/ADS @2025
+    </footer>
+</body>
+</html>

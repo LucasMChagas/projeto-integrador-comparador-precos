@@ -1,0 +1,289 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo-container img {
+    max-width: 120px;
+    height: auto;
+}
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Barra de pesquisa */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 600px;
+    gap: 10px;
+}
+
+.search-bar select,
+.search-bar button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+/* Contêiner principal (3 colunas) */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+    width: 90%;
+}
+
+/* Seções (produtos, favoritos, alerta de promoção) */
+.section,
+.favorites-section,
+.alerta-promocao {
+    flex: 1;
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    overflow-y: auto;
+}
+
+/* Títulos das seções */
+.section > h2,
+.favorites-section > h2,
+.alerta-promocao > h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+/* Listas de produtos */
+.product-list,
+.product-comparison-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Cards dos produtos */
+.product {
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Imagem do produto agora ocupa toda a largura */
+.product img {
+    width: 100%;
+    max-width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* Preço com destaque para o menor */
+.mais-barato {
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* Botões dentro do card */
+.product button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.product button:hover {
+    background-color: #e6b800;
+}
+
+/* Alerta para preço baixo */
+.alert-low-price {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Modal geral */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    overflow-y: auto;
+}
+
+/* Conteúdo do modal */
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px 30px;
+    border-radius: 8px;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+}
+
+/* Botão fechar do modal */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.close:hover {
+    color: #007bff;
+}
+
+/* Links dentro do modal */
+#modalLink a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#modalLink a:hover {
+    background-color: #0056b3;
+}
+
+/* Responsividade básica */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        width: 95%;
+    }
+}
+
+/* Botão base */
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 18px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Botões Sair e Adicionar Oferta com estilo igual ao botão "Voltar" */
+.btn-sair,
+.btn-adicionar-oferta {
+    color: #fff;
+    background-color: #0056b3;
+    padding: 10px 18px;
+    border-radius: 6px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-sair:hover,
+.btn-adicionar-oferta:hover {
+    background-color: #004494;
+    box-shadow: none;
+}
+
+/* Botão Remover Alerta (vermelho) */
+.btn-remover-alerta {
+    background-color: #e74c3c;
+    color: white;
+    box-shadow: 0 3px 6px rgba(231, 76, 60, 0.4);
+}
+
+.btn-remover-alerta:hover {
+    background-color: #c0392b;
+    box-shadow: 0 6px 12px rgba(192, 57, 43, 0.6);
+}
+
+/* Rodapé fixo */
+.footer {
+    text-align: center;
+    padding: 15px 10px;
+    background-color: #222;
+    color: #eee;
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.5);
+    z-index: 20;
+}

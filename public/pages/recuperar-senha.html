@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recuperar Senha - Comparador de Preços</title>
+    <link rel="stylesheet" href="../styles/recuperar-senha.css" />
+    <script src="../scripts/recuperar-senha.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Recuperar Senha</h1>
+        <form id="recuperarSenhaForm">
+            <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" required />
+                <div class="error" id="emailError"></div>
+            </div>
+
+            <!-- Botão alterado para "type=button" para evitar recarregamento da página -->
+            <button type="button" id="enviarBtn">Enviar</button>
+
+            <div class="success" id="successMessage"></div>
+        </form>
+
+        <div class="link">
+            <p><a href="index.html">Voltar ao login</a></p>
+        </div>
+    </div>
+        <!-- Rodapé -->
+    <footer class="footer">
+        Desenvolvido por Grupo 1 - Aline Santos, Isabelle Fontenele. Karen Zordan, Leticia Simões, Lucas Chagas, Tairan De Abru.  SENAC/ADS @2025
+    </footer>
+</body>
+</html>
